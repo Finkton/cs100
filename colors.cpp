@@ -1,6 +1,17 @@
 #include <iostream>
 #include <windows.h>   // WinApi header
 using namespace std;    // std::cout, std::cin
+/*
+bit 0 - foreground blue
+bit 1 - foreground green
+bit 2 - foreground red
+bit 3 - foreground intensity
+
+bit 4 - background blue
+bit 5 - background green
+bit 6 - background red
+bit 7 - background intensity
+*/
 int main()
 {
   HANDLE  hConsole;
